@@ -1,0 +1,4140 @@
+---------------------------------------------------------------
+[ 2020-05-09T08:48:30+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand
+[运行时间：0.139886s] [吞吐率：7.15req/s] [内存消耗：2,016.82kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\brand\list.html [ array (
+  0 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002082s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.040571s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` [ RunTime:0.000486s ]
+---------------------------------------------------------------
+[ 2020-05-09T08:48:36+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/index.html
+[运行时间：0.031735s] [吞吐率：31.51req/s] [内存消耗：1,124.97kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'return' (T_RETURN)[D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php:12]
+---------------------------------------------------------------
+[ 2020-05-09T15:06:16+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/brand
+[运行时间：0.275851s] [吞吐率：3.63req/s] [内存消耗：2,016.83kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'brand',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Brand->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\brand\list.html [ array (
+  0 => 'brand',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002135s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.025828s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` [ RunTime:0.000492s ]
+---------------------------------------------------------------
+[ 2020-05-09T15:06:34+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/index.html
+[运行时间：0.116280s] [吞吐率：8.60req/s] [内存消耗：1,124.97kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/brand',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'return' (T_RETURN)[D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php:12]
+---------------------------------------------------------------
+[ 2020-05-09T15:10:12+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.035810s] [吞吐率：27.93req/s] [内存消耗：1,297.52kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T15:10:54+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.086933s] [吞吐率：11.50req/s] [内存消耗：1,502.28kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T15:11:28+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.040817s] [吞吐率：24.50req/s] [内存消耗：1,502.09kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T15:11:41+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.043713s] [吞吐率：22.88req/s] [内存消耗：1,502.06kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T15:12:06+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.039871s] [吞吐率：25.08req/s] [内存消耗：1,502.38kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T15:12:57+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.050767s] [吞吐率：19.70req/s] [内存消耗：1,504.23kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T15:13:14+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.039305s] [吞吐率：25.44req/s] [内存消耗：1,365.45kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T15:13:18+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.039389s] [吞吐率：25.39req/s] [内存消耗：1,365.12kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T15:14:49+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.040109s] [吞吐率：24.93req/s] [内存消耗：1,504.07kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T15:31:18+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.036106s] [吞吐率：27.70req/s] [内存消耗：1,367.20kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T15:31:20+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.031890s] [吞吐率：31.36req/s] [内存消耗：1,367.20kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T15:31:25+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.039487s] [吞吐率：25.32req/s] [内存消耗：1,352.52kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '813',
+  'content-type' => 'multipart/form-data; boundary=---------------------------268319417628203186304215397358',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'title' => 'asdasd',
+  'type' => '1',
+  'link_url' => 'asdasd',
+  'description' => 'asdasdasd',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '}', expecting ',' or ';'[D:\phpStudy\WWW\TpShop\application\admin\validate\Tplinks.php:17]
+---------------------------------------------------------------
+[ 2020-05-09T15:31:35+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.098846s] [吞吐率：10.12req/s] [内存消耗：1,325.59kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '813',
+  'content-type' => 'multipart/form-data; boundary=---------------------------268319417628203186304215397358',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'title' => 'asdasd',
+  'type' => '1',
+  'link_url' => 'asdasd',
+  'description' => 'asdasdasd',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T15:31:39+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.028192s] [吞吐率：35.47req/s] [内存消耗：1,366.82kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T15:31:56+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.059368s] [吞吐率：16.84req/s] [内存消耗：1,961.45kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '827',
+  'content-type' => 'multipart/form-data; boundary=---------------------------261586164835314767863199177492',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'title' => '百度',
+  'type' => '1',
+  'link_url' => 'http://www.baidu.com',
+  'description' => 'asdasdasd',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002055s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.011854s ]
+[ sql ] [ SQL ] INSERT INTO `tp_link` (`title` , `type` , `link_url` , `description` , `status`) VALUES ('百度' , '1' , 'http://www.baidu.com' , 'asdasdasd' , 1) [ RunTime:0.000891s ]
+---------------------------------------------------------------
+[ 2020-05-09T15:31:59+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.044517s] [吞吐率：22.46req/s] [内存消耗：1,367.09kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:04:26+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.043435s] [吞吐率：23.02req/s] [内存消耗：1,368.73kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:04:40+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.040308s] [吞吐率：24.81req/s] [内存消耗：1,331.91kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '31235',
+  'content-type' => 'multipart/form-data; boundary=---------------------------91218464217113782022000050979',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'title' => '',
+  'type' => '1',
+  'link_url' => '',
+  'description' => '',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:10:12+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.040013s] [吞吐率：24.99req/s] [内存消耗：1,331.22kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '0',
+  'content-type' => 'multipart/form-data; boundary=---------------------------91218464217113782022000050979',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:14:47+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.034876s] [吞吐率：28.67req/s] [内存消耗：1,123.07kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '0',
+  'content-type' => 'multipart/form-data; boundary=---------------------------91218464217113782022000050979',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'public' (T_PUBLIC), expecting ',' or ';'[D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php:13]
+---------------------------------------------------------------
+[ 2020-05-09T16:14:58+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.034654s] [吞吐率：28.86req/s] [内存消耗：1,346.17kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '0',
+  'content-type' => 'multipart/form-data; boundary=---------------------------91218464217113782022000050979',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to a member function move() on null[D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php:55]
+---------------------------------------------------------------
+[ 2020-05-09T16:15:33+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.029838s] [吞吐率：33.51req/s] [内存消耗：1,332.39kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '0',
+  'content-type' => 'multipart/form-data; boundary=---------------------------91218464217113782022000050979',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:15:50+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.028487s] [吞吐率：35.10req/s] [内存消耗：1,369.53kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:15:53+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.030229s] [吞吐率：33.08req/s] [内存消耗：1,369.75kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:15:55+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.031533s] [吞吐率：31.71req/s] [内存消耗：1,388.07kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '31242',
+  'content-type' => 'multipart/form-data; boundary=---------------------------383454319213255925401493238295',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'title' => '',
+  'type' => '1',
+  'link_url' => '',
+  'description' => '',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:17:01+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.040388s] [吞吐率：24.76req/s] [内存消耗：1,369.41kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:17:02+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.029399s] [吞吐率：34.01req/s] [内存消耗：1,369.63kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:17:33+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.076624s] [吞吐率：13.05req/s] [内存消耗：2,020.26kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '31255',
+  'content-type' => 'multipart/form-data; boundary=---------------------------2916572024190916982414761568',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'title' => 'dsfjsdf',
+  'type' => '1',
+  'link_url' => 'http://www.baidu.com',
+  'description' => '',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010926s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.010528s ]
+[ sql ] [ SQL ] INSERT INTO `tp_link` (`title` , `type` , `link_url` , `description` , `status` , `logo`) VALUES ('dsfjsdf' , '1' , 'http://www.baidu.com' , '' , 1 , '20200509\\d9d331eacf89c3f2dd0a33089a4742f4.png') [ RunTime:0.000682s ]
+---------------------------------------------------------------
+[ 2020-05-09T16:17:36+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.045370s] [吞吐率：22.04req/s] [内存消耗：1,369.41kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:21:50+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.038755s] [吞吐率：25.80req/s] [内存消耗：1,369.85kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:21:52+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.031152s] [吞吐率：32.10req/s] [内存消耗：1,327.63kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '792',
+  'content-type' => 'multipart/form-data; boundary=---------------------------317253897320427565271761252347',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'title' => '',
+  'type' => '1',
+  'link_url' => '',
+  'description' => '',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:21:56+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.036768s] [吞吐率：27.20req/s] [内存消耗：1,369.41kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:22:10+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.032951s] [吞吐率：30.35req/s] [内存消耗：1,327.76kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '797',
+  'content-type' => 'multipart/form-data; boundary=---------------------------13237300383255469697796448335',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'title' => '腾讯',
+  'type' => '0',
+  'link_url' => 'asdfa ',
+  'description' => '',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:22:13+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.039344s] [吞吐率：25.42req/s] [内存消耗：1,369.41kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:22:27+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.079066s] [吞吐率：12.65req/s] [内存消耗：2,020.85kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '21370',
+  'content-type' => 'multipart/form-data; boundary=---------------------------360604097310142683243024003711',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'title' => '腾讯',
+  'type' => '0',
+  'link_url' => 'http://www.qq.com',
+  'description' => '腾讯腾讯腾讯腾讯腾讯腾讯腾讯腾讯腾讯腾讯腾讯腾讯腾讯',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011192s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.011341s ]
+[ sql ] [ SQL ] INSERT INTO `tp_link` (`title` , `type` , `link_url` , `description` , `status` , `logo`) VALUES ('腾讯' , '0' , 'http://www.qq.com' , '腾讯腾讯腾讯腾讯腾讯腾讯腾讯腾讯腾讯腾讯腾讯腾讯腾讯' , 1 , '20200509\\7e11c5f5a875d9c3afee8ffa1082e514.png') [ RunTime:0.000592s ]
+---------------------------------------------------------------
+[ 2020-05-09T16:22:30+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.037943s] [吞吐率：26.36req/s] [内存消耗：1,369.41kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:22:42+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/index.html
+[运行时间：0.091013s] [吞吐率：10.99req/s] [内存消耗：2,170.18kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\list.html [ array (
+  0 => 'links',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001300s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.011110s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` [ RunTime:0.000461s ]
+[ error ] [8]未定义数组索引: brand_name[D:\phpStudy\WWW\TpShop\runtime\temp\826b7b92625af6a39e4fff5ff55a93ca.php:451]
+---------------------------------------------------------------
+[ 2020-05-09T16:22:59+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.067823s] [吞吐率：14.74req/s] [内存消耗：2,020.77kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '25579',
+  'content-type' => 'multipart/form-data; boundary=---------------------------353489038338656881963659932170',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'title' => '网易',
+  'type' => '1',
+  'link_url' => 'http://www.163.com',
+  'description' => '网易网易网易网易网易网易网易网易网易网易',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001210s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.016430s ]
+[ sql ] [ SQL ] INSERT INTO `tp_link` (`title` , `type` , `link_url` , `description` , `status` , `logo`) VALUES ('网易' , '1' , 'http://www.163.com' , '网易网易网易网易网易网易网易网易网易网易' , 1 , '20200509\\a55d27a77af139c9df88ed4b73fa376d.png') [ RunTime:0.000664s ]
+---------------------------------------------------------------
+[ 2020-05-09T16:23:02+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add
+[运行时间：0.031851s] [吞吐率：31.40req/s] [内存消耗：1,369.41kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:23:12+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/index.html
+[运行时间：0.060034s] [吞吐率：16.66req/s] [内存消耗：2,029.77kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\list.html [ array (
+  0 => 'links',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001425s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.011965s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` [ RunTime:0.000458s ]
+[ error ] [8]未定义数组索引: brand_name[D:\phpStudy\WWW\TpShop\runtime\temp\826b7b92625af6a39e4fff5ff55a93ca.php:451]
+---------------------------------------------------------------
+[ 2020-05-09T16:23:55+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/index.html
+[运行时间：0.083421s] [吞吐率：11.99req/s] [内存消耗：2,171.87kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\list.html [ array (
+  0 => 'links',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001191s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.011762s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` [ RunTime:0.000440s ]
+[ error ] [8]未定义数组索引: brand_img[D:\phpStudy\WWW\TpShop\runtime\temp\826b7b92625af6a39e4fff5ff55a93ca.php:455]
+---------------------------------------------------------------
+[ 2020-05-09T16:24:04+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/index.html
+[运行时间：0.065858s] [吞吐率：15.18req/s] [内存消耗：2,159.76kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\list.html [ array (
+  0 => 'links',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010318s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.009977s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` [ RunTime:0.000538s ]
+---------------------------------------------------------------
+[ 2020-05-09T16:24:26+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/index.html
+[运行时间：0.073348s] [吞吐率：13.63req/s] [内存消耗：2,160.13kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\list.html [ array (
+  0 => 'links',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010630s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.009866s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` [ RunTime:0.000461s ]
+---------------------------------------------------------------
+[ 2020-05-09T16:29:03+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/index.html
+[运行时间：0.069977s] [吞吐率：14.29req/s] [内存消耗：2,013.20kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\list.html [ array (
+  0 => 'links',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010245s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.009289s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` [ RunTime:0.000435s ]
+---------------------------------------------------------------
+[ 2020-05-09T16:29:05+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.065880s] [吞吐率：15.18req/s] [内存消耗：2,150.57kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/index.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001418s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.009720s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000545s ]
+---------------------------------------------------------------
+[ 2020-05-09T16:30:57+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.076750s] [吞吐率：13.03req/s] [内存消耗：2,151.19kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010314s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.009759s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000529s ]
+---------------------------------------------------------------
+[ 2020-05-09T16:31:05+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/2.html
+[运行时间：0.069825s] [吞吐率：14.32req/s] [内存消耗：2,010.79kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/index.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001203s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.013383s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000713s ]
+---------------------------------------------------------------
+[ 2020-05-09T16:31:40+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/2.html
+[运行时间：0.059159s] [吞吐率：16.90req/s] [内存消耗：2,151.69kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001176s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.010281s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000521s ]
+---------------------------------------------------------------
+[ 2020-05-09T16:31:51+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/2.html
+[运行时间：0.068831s] [吞吐率：14.53req/s] [内存消耗：2,151.66kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001387s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.010212s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000493s ]
+---------------------------------------------------------------
+[ 2020-05-09T16:32:21+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/2.html
+[运行时间：0.062952s] [吞吐率：15.89req/s] [内存消耗：2,151.63kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001204s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.010199s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000460s ]
+---------------------------------------------------------------
+[ 2020-05-09T16:52:17+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/2.html
+[运行时间：0.054790s] [吞吐率：18.25req/s] [内存消耗：1,335.06kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]类不存在:app\common\validate\Link[D:\phpStudy\WWW\TpShop\thinkphp\library\think\Loader.php:526]
+---------------------------------------------------------------
+[ 2020-05-09T16:53:27+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/2.html
+[运行时间：0.031829s] [吞吐率：31.42req/s] [内存消耗：1,323.60kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:53:34+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.034405s] [吞吐率：29.07req/s] [内存消耗：1,323.26kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/index.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:53:47+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.039731s] [吞吐率：25.17req/s] [内存消耗：1,337.24kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:53:52+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.028545s] [吞吐率：35.03req/s] [内存消耗：1,351.83kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:53:53+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.025374s] [吞吐率：39.41req/s] [内存消耗：1,351.83kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:54:01+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.032114s] [吞吐率：31.14req/s] [内存消耗：1,323.67kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:54:08+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.034580s] [吞吐率：28.92req/s] [内存消耗：1,323.51kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:54:38+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.050805s] [吞吐率：19.68req/s] [内存消耗：1,332.29kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:54:44+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.031315s] [吞吐率：31.93req/s] [内存消耗：1,331.91kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/index.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:54:49+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.034796s] [吞吐率：28.74req/s] [内存消耗：1,331.91kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/index.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:55:14+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/index.html
+[运行时间：0.054471s] [吞吐率：18.36req/s] [内存消耗：2,017.29kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/add',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\list.html [ array (
+  0 => 'links',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001333s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.010244s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` [ RunTime:0.000421s ]
+---------------------------------------------------------------
+[ 2020-05-09T16:55:17+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.066689s] [吞吐率：14.99req/s] [内存消耗：2,014.95kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/index.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011004s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.012319s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000949s ]
+---------------------------------------------------------------
+[ 2020-05-09T16:55:27+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.114389s] [吞吐率：8.74req/s] [内存消耗：2,056.32kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '31298',
+  'content-type' => 'multipart/form-data; boundary=---------------------------399008116631144308412943521985',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'title' => '百度',
+  'type' => '0',
+  'link_url' => 'http://www.baidu.com',
+  'description' => '百度百度百度百度百度',
+  'status' => '1',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010918s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.009779s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000952s ]
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tpshop.tp_insert' doesn't exist[D:\phpStudy\WWW\TpShop\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2020-05-09T16:55:39+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.035544s] [吞吐率：28.13req/s] [内存消耗：1,332.52kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '0',
+  'content-type' => 'multipart/form-data; boundary=---------------------------399008116631144308412943521985',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T16:55:42+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.061023s] [吞吐率：16.39req/s] [内存消耗：2,014.84kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001305s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.009455s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000497s ]
+---------------------------------------------------------------
+[ 2020-05-09T16:55:50+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.079613s] [吞吐率：12.56req/s] [内存消耗：2,060.32kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '31284',
+  'content-type' => 'multipart/form-data; boundary=---------------------------3042656334410797783889376560',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'title' => '百度',
+  'type' => '0',
+  'link_url' => 'http://www.baidu.com',
+  'description' => '百度百度百度百度百度',
+  'status' => '1',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001313s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.011688s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000456s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'[D:\phpStudy\WWW\TpShop\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2020-05-09T16:58:41+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.081353s] [吞吐率：12.29req/s] [内存消耗：2,155.84kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011052s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.010178s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000482s ]
+---------------------------------------------------------------
+[ 2020-05-09T16:58:43+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.062720s] [吞吐率：15.94req/s] [内存消耗：2,015.48kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010194s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.011800s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000501s ]
+---------------------------------------------------------------
+[ 2020-05-09T16:59:09+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.114859s] [吞吐率：8.71req/s] [内存消耗：2,100.98kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '31411',
+  'content-type' => 'multipart/form-data; boundary=---------------------------20830549311727889404916351360',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'title' => '百度',
+  'type' => '1',
+  'link_url' => 'http://www.baidu.com',
+  'description' => '百度百度百度百度百度百度百度',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010432s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.012184s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001099s ]
+[ sql ] [ SQL ] UPDATE `tp_link`  SET `id`=1,`title`='百度',`type`='1',`link_url`='http://www.baidu.com',`description`='百度百度百度百度百度百度百度',`status`=1,`logo`='20200509\\4c75ceb60453cdab0bb653ee4bbb5290.png'  WHERE  `id` = 1 [ RunTime:0.001728s ]
+---------------------------------------------------------------
+[ 2020-05-09T16:59:12+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.065211s] [吞吐率：15.33req/s] [内存消耗：2,015.22kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001255s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.009426s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000535s ]
+---------------------------------------------------------------
+[ 2020-05-09T16:59:15+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.062114s] [吞吐率：16.10req/s] [内存消耗：2,044.83kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '969',
+  'content-type' => 'multipart/form-data; boundary=---------------------------152208289942422333203566817452',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'title' => '百度',
+  'type' => '0',
+  'link_url' => 'http://www.baidu.com',
+  'description' => '百度百度百度百度百度百度百度',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001017s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.010533s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000471s ]
+[ sql ] [ SQL ] UPDATE `tp_link`  SET `id`=1,`title`='百度',`type`='0',`link_url`='http://www.baidu.com',`description`='百度百度百度百度百度百度百度',`status`=1  WHERE  `id` = 1 [ RunTime:0.000564s ]
+---------------------------------------------------------------
+[ 2020-05-09T16:59:19+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.062958s] [吞吐率：15.88req/s] [内存消耗：2,015.22kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001094s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.009712s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000560s ]
+---------------------------------------------------------------
+[ 2020-05-09T16:59:46+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.064317s] [吞吐率：15.55req/s] [内存消耗：2,101.08kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '31403',
+  'content-type' => 'multipart/form-data; boundary=---------------------------7537614853941425363704163470',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'title' => '百度',
+  'type' => '0',
+  'link_url' => 'http://www.baidu.com',
+  'description' => '百度百度百度百度百度百度百度',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010821s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.009187s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] UPDATE `tp_link`  SET `id`=1,`title`='百度',`type`='0',`link_url`='http://www.baidu.com',`description`='百度百度百度百度百度百度百度',`status`=1,`logo`='20200509\\2021c2ca4e6f5b7ff13e167f9e8bc3ba.png'  WHERE  `id` = 1 [ RunTime:0.000616s ]
+---------------------------------------------------------------
+[ 2020-05-09T16:59:49+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.074773s] [吞吐率：13.37req/s] [内存消耗：2,015.22kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010653s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.011588s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000512s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:00:29+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.066438s] [吞吐率：15.05req/s] [内存消耗：2,043.00kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '969',
+  'content-type' => 'multipart/form-data; boundary=---------------------------425482646914863442563017258230',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'title' => '百度',
+  'type' => '0',
+  'link_url' => 'http://www.baidu.com',
+  'description' => '百度百度百度百度百度百度百度',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001081s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.012378s ]
+[ sql ] [ SQL ] UPDATE `tp_link`  SET `id`=1,`title`='百度',`type`='0',`link_url`='http://www.baidu.com',`description`='百度百度百度百度百度百度百度',`status`=1  WHERE  `id` = 1 [ RunTime:0.000547s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:00:32+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.053774s] [吞吐率：18.60req/s] [内存消耗：2,015.36kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001245s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.010937s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000570s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:00:38+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.055084s] [吞吐率：18.15req/s] [内存消耗：2,015.66kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001169s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.011110s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000566s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:01:10+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.059303s] [吞吐率：16.86req/s] [内存消耗：2,016.23kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000995s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.010260s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000451s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:01:16+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.057199s] [吞吐率：17.48req/s] [内存消耗：1,968.91kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '961',
+  'content-type' => 'multipart/form-data; boundary=---------------------------24155605453843372972551560208',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'title' => '百度',
+  'type' => '0',
+  'link_url' => 'http://www.baidu.com',
+  'description' => '百度百度百度百度百度百度百度',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010665s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.009381s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:02:01+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.059669s] [吞吐率：16.76req/s] [内存消耗：2,015.82kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001652s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.009784s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000490s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:02:04+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.049816s] [吞吐率：20.07req/s] [内存消耗：1,968.91kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '961',
+  'content-type' => 'multipart/form-data; boundary=---------------------------18493317183725159988556409088',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'title' => '百度',
+  'type' => '0',
+  'link_url' => 'http://www.baidu.com',
+  'description' => '百度百度百度百度百度百度百度',
+  'status' => '0',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001204s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.010470s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:02:44+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.060070s] [吞吐率：16.65req/s] [内存消耗：1,972.79kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '961',
+  'content-type' => 'multipart/form-data; boundary=---------------------------18493317183725159988556409088',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'title' => '百度',
+  'type' => '0',
+  'link_url' => 'http://www.baidu.com',
+  'description' => '百度百度百度百度百度百度百度',
+  'status' => '0',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001096s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.011908s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:02:47+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.064891s] [吞吐率：15.41req/s] [内存消耗：2,015.34kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000978s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.010614s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000486s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:02:53+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.053277s] [吞吐率：18.77req/s] [内存消耗：1,972.41kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '953',
+  'content-type' => 'multipart/form-data; boundary=---------------------------3775659102611138301460514969',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'title' => '百度',
+  'type' => '0',
+  'link_url' => 'http://www.baidu.com',
+  'description' => '百度百度百度百度百度百度百度',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001107s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.011990s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:02:56+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.063274s] [吞吐率：15.80req/s] [内存消耗：2,015.34kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010292s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.010951s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000484s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:04:20+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.075340s] [吞吐率：13.27req/s] [内存消耗：2,156.88kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010065s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.009989s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000546s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:04:26+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.053885s] [吞吐率：18.56req/s] [内存消耗：2,015.90kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000949s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.011993s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000567s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:04:41+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.047432s] [吞吐率：21.08req/s] [内存消耗：1,972.41kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '961',
+  'content-type' => 'multipart/form-data; boundary=---------------------------35633651551726649736178945154',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'title' => '百度',
+  'type' => '0',
+  'link_url' => 'http://www.baidu.com',
+  'description' => '百度百度百度百度百度百度百度',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001209s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.010426s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:04:44+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.056911s] [吞吐率：17.57req/s] [内存消耗：2,015.34kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001203s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.013349s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000653s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:05:14+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.054828s] [吞吐率：18.24req/s] [内存消耗：2,015.90kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001065s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.010041s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000554s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:06:00+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.047874s] [吞吐率：20.89req/s] [内存消耗：2,015.99kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001071s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.009372s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000520s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:06:01+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.029182s] [吞吐率：34.27req/s] [内存消耗：1,353.70kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '969',
+  'content-type' => 'multipart/form-data; boundary=---------------------------325843706125142310334131354708',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'title' => '百度',
+  'type' => '0',
+  'link_url' => 'http://www.baidu.com',
+  'description' => '百度百度百度百度百度百度百度',
+  'status' => '0',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T17:06:06+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.047953s] [吞吐率：20.85req/s] [内存消耗：2,015.52kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001076s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.009797s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000652s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:06:10+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.027867s] [吞吐率：35.88req/s] [内存消耗：1,353.70kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '961',
+  'content-type' => 'multipart/form-data; boundary=---------------------------45395894014306562411149323332',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'title' => '百度',
+  'type' => '0',
+  'link_url' => 'http://www.baidu.com',
+  'description' => '百度百度百度百度百度百度百度',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-05-09T17:06:13+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.046138s] [吞吐率：21.67req/s] [内存消耗：2,015.52kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001186s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.009971s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000483s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:06:17+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.067562s] [吞吐率：14.80req/s] [内存消耗：2,015.78kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001090s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.010521s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000819s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:06:19+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.051797s] [吞吐率：19.31req/s] [内存消耗：1,972.41kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '953',
+  'content-type' => 'multipart/form-data; boundary=---------------------------2537346846708705652542740803',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'title' => '百度',
+  'type' => '0',
+  'link_url' => 'http://www.baidu.com',
+  'description' => '百度百度百度百度百度百度百度',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001132s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.010066s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:06:22+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.059535s] [吞吐率：16.80req/s] [内存消耗：2,015.34kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001090s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.010336s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000460s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:06:42+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.050453s] [吞吐率：19.82req/s] [内存消耗：2,015.54kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001137s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.009728s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000956s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:06:44+08:00 ] 127.0.0.1 POST localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.054536s] [吞吐率：18.34req/s] [内存消耗：2,042.91kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'connection' => 'keep-alive',
+  'origin' => 'http://localhost',
+  'content-length' => '969',
+  'content-type' => 'multipart/form-data; boundary=---------------------------246829056638323544432964650704',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'title' => '百度',
+  'type' => '0',
+  'link_url' => 'http://www.baidu.com',
+  'description' => '百度百度百度百度百度百度百度',
+  'status' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001361s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.011143s ]
+[ sql ] [ SQL ] UPDATE `tp_link`  SET `id`=1,`title`='百度',`type`='0',`link_url`='http://www.baidu.com',`description`='百度百度百度百度百度百度百度',`status`=1  WHERE  `id` = 1 [ RunTime:0.000639s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:06:47+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.069405s] [吞吐率：14.41req/s] [内存消耗：2,015.06kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010634s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.010621s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000490s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:08:33+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/edit/id/1.html
+[运行时间：0.069031s] [吞吐率：14.49req/s] [内存消耗：2,015.41kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\edit.html [ array (
+  0 => 'link',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001263s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.011932s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000580s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:08:42+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/index.html
+[运行时间：0.053134s] [吞吐率：18.82req/s] [内存消耗：2,017.05kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\list.html [ array (
+  0 => 'links',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001280s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.010972s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` [ RunTime:0.000422s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:10:53+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/index.html
+[运行时间：0.064282s] [吞吐率：15.56req/s] [内存消耗：2,018.43kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\list.html [ array (
+  0 => 'links',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001242s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.014554s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` [ RunTime:0.000615s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:11:00+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/del/id/2.html
+[运行时间：0.079122s] [吞吐率：12.64req/s] [内存消耗：2,021.74kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/index.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Link->del[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010603s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.012258s ]
+[ sql ] [ SQL ] DELETE FROM `tp_link`    WHERE  `id` = 2 [ RunTime:0.000767s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:11:03+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/index.html
+[运行时间：0.068261s] [吞吐率：14.65req/s] [内存消耗：2,016.80kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/del/id/2.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\list.html [ array (
+  0 => 'links',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011031s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.010202s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` [ RunTime:0.000467s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:16:01+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/index.html
+[运行时间：0.088827s] [吞吐率：11.26req/s] [内存消耗：2,162.79kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/del/id/2.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->index[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\list.html [ array (
+  0 => 'links',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011127s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_link` [ RunTime:0.009484s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_link` [ RunTime:0.000556s ]
+---------------------------------------------------------------
+[ 2020-05-09T17:16:48+08:00 ] 127.0.0.1 GET localhost/tpshop/public/index.php/admin/link/add.html
+[运行时间：0.037841s] [吞吐率：26.43req/s] [内存消耗：1,513.92kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\TpShop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'link',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://localhost/tpshop/public/index.php/admin/link/index.html',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+  'host' => 'localhost',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->add[ D:\phpStudy\WWW\TpShop\application\admin\controller\Link.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\TpShop\public/../application/admin\view\link\add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
